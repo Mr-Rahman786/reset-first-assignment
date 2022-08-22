@@ -1,0 +1,39 @@
+/* first font-family */
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400;500&family=Pacifico&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Dancing+Script:wght@400;500&family=Pacifico&display=swap');
+
+body{
+    margin: 0;
+}
+.section-01{
+    text-align: center;
+    background-image: url(./images/donation13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    height: 600px;
+}
+.main-01{
+    padding-top: 10%;
+}
+#people{
+    color: orangered;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+}
+#header-01 {
+    font-size: 4rem;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Bree Serif', serif;
+}
+/* :first-button */
+.anchor-01{
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    padding: 12px 40px;
+    border-radius: 5px;
+}
