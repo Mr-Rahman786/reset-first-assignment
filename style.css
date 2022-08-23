@@ -37,3 +37,106 @@ body{
     padding: 12px 40px;
     border-radius: 5px;
 }
+/* second section */
+.second-section{
+    text-align: center;
+}
+.second-header{
+    font-size: 3rem;
+}
+.donate{
+    width: 50%;
+    margin-left: 20%;
+    display: flex;
+    text-align: center;
+}
+.item{
+    font-size: 3rem;
+    width: 20%;
+    padding: 5% 5%;
+    height: 100px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+#item-3{
+    font-size: 3rem;
+    color: crimson;
+    height: 30%;
+    border-radius: 10px;
+    width: 20%;
+    padding: 5% 5%;
+    /* padding-top: 3%; */
+    /* border-bottom: 5px solid crimson; */
+    background-color: rgb(249, 216, 227);
+    text-align: center;
+}
+hr{
+    width: 50%;
+    height: 2%;
+    size: 5px;
+}
+
+.hr{
+    text-decoration: none;
+    opacity: 0.5;
+}
+.btn-01{
+    color: aliceblue;
+    background-image: linear-gradient(rgb(120, 91, 97),rgb(41, 32, 28));
+    padding: 15px 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* third section  */
+.third-section{
+    text-align: center;
+    /* padding-left: 25%; */
+}
+.donate-plan-main{
+    display: flex;
+    width:60%;
+    padding-left: 18.5%;
+}
+.donate-item-1{
+    padding: 3%;
+    margin-left: 5%;
+    text-align:center;
+    width: 100%;
+    border-radius:10px ;
+    background-image: url(./icons/icon8.svg);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 100px 30px;
+    background-color: rgb(239, 180, 158);
+
+}
+.donate-item-2{
+    padding: 3%;
+    margin-left: 2%;
+    width: 100%;
+    background-image: url(./icons/shelter.png);
+    background-color: rgb(187, 210, 241);
+    text-align: center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 100px 35px;
+    background-size: 25%;
+}
+.donate-item-3{
+    padding: 3%;
+    margin-left: 2%;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(211, 115, 226);
+    background-image: url(./icons/icon4.svg);
+    background-repeat: no-repeat;
+    background-position: 100px 35px;
+    background-size: 25%;
+}
+.header-padding{
+    padding-top: 30%;
+} 
