@@ -1,8 +1,14 @@
 /* first font-family */
-        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400;500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400;500&family=Pacifico&display=swap');
 /*  */
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Dancing+Script:wght@400;500&family=Pacifico&display=swap');
-
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Dancing+Script:wght@400;500;700&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Lobster&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Lobster&family=Rajdhani:wght@500&display=swap');
+/*  */
 body{
     margin: 0;
 }
@@ -77,6 +83,7 @@ hr{
 }
 
 .hr{
+    color: black;
     text-decoration: none;
     opacity: 0.5;
 }
@@ -140,3 +147,40 @@ hr{
 .header-padding{
     padding-top: 30%;
 } 
+
+/* forth-section */
+.forth-section-flex{
+    text-align: center;
+}
+.forth-section-header{
+    font-family: 'Aboreto', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2.5rem;
+    /* border-left: 3px solid crimson; */
+}
+.another-header-01{
+    font-family: 'Aboreto', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+}
+#bank-draft{
+    font-family: 'Aboreto', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: crimson;
+}
+.flexible-item{
+    display: flex;
+}
+.flexible{
+    width: 30%;
+    padding: 17%;
+    text-align: left;
+}
+.flexible img{
+    width: 50%;
+}
