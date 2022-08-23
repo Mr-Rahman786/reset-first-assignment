@@ -9,6 +9,14 @@
 /*  */
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Lobster&family=Rajdhani:wght@500&display=swap');
 /*  */
+
+/* footer font */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Dancing+Script:wght@700&family=Lobster&family=Rajdhani:wght@500&display=swap');
+
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Lobster&family=Noto+Sans+TC:wght@300&family=Rajdhani:wght@500&display=swap');
+
+/* finised */
 body{
     margin: 0;
 }
@@ -52,7 +60,7 @@ body{
 }
 .donate{
     width: 50%;
-    margin-left: 20%;
+    margin-left: 23%;
     display: flex;
     text-align: center;
 }
@@ -62,7 +70,6 @@ body{
     padding: 5% 5%;
     height: 100px;
     text-align: center;
-    /* background-color: aqua; */
 }
 #item-3{
     font-size: 3rem;
@@ -71,8 +78,6 @@ body{
     border-radius: 10px;
     width: 20%;
     padding: 5% 5%;
-    /* padding-top: 3%; */
-    /* border-bottom: 5px solid crimson; */
     background-color: rgb(249, 216, 227);
     text-align: center;
 }
@@ -158,13 +163,21 @@ hr{
     font-family: 'Lobster', cursive;
     font-family: 'Rajdhani', sans-serif;
     font-size: 2.5rem;
-    /* border-left: 3px solid crimson; */
+    /* border-left: 3px solid crimsonf; */
 }
 .another-header-01{
     font-family: 'Aboreto', cursive;
     font-family: 'Bree Serif', serif;
     font-family: 'Lobster', cursive;
     font-weight: 100;
+    
+}
+.another-header-0{
+    font-family: 'Aboreto', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 3rem;
 }
 #bank-draft{
     font-family: 'Aboreto', cursive;
@@ -183,4 +196,103 @@ hr{
 }
 .flexible img{
     width: 50%;
+}
+/* fifth section */
+.flex-mantor{
+    display: flex;
+    padding-left: 10%;
+}
+.flexible-0{
+    width: 40%;
+    padding: 12%;
+    text-align: left;
+}
+
+.flex-mentor-item img{
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 25%;
+    padding-left: 5%;
+}
+.last-header-padding{
+    padding-top: 20%;
+}
+.last-one-section{
+    background-color: rgba(21, 37, 56, 0.284);
+    height: 430px;
+    border-radius: 10px;
+
+
+}
+.btn-001{
+    text-decoration: none;
+    color: white;
+    background-color:crimson;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    padding-left: 10%;
+}
+.btn-002{
+    text-decoration: none;
+    color: white;
+    background-color: darkmagenta;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    padding-left: 10%;
+}
+/* last section */
+.last-part-email{
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgba(255, 8, 58, 0.159);
+    margin-top: 200px;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 10px;
+}
+.email-part{
+    display: flex;
+    padding-left: 30%;
+    height: 30%;
+    padding-bottom: 15%;
+}
+#input-email{
+    margin-top: 10%;
+    background-color:rgb(15, 18, 20);
+    border: none;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+}
+#button-suscribe{
+    margin-top: 20%;
+    border: none;
+    background-color: orangered;
+    height: 37px;
+    width: 100px;
+    text-align: center;
+}
+/* footer */
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 120px;
+}
+.footer-header{
+    padding-top: 15px;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    color: orangered;
+}
+.footer-titale{
+    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Bree Serif', serif;
+    
 }
